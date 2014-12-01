@@ -1,0 +1,206 @@
+	
+	body{
+		background: black;
+	}
+
+	.home{
+	 	background: url(../imagen/alpes.jpg);
+	    background-attachment: fixed;
+	    background-repeat: no-repeat;
+	    background-position: top left;
+	    background-size: 100% 100%;
+	}
+	.about{
+		background: url(../imagen/japon3.jpg);
+	    background-attachment: fixed;
+	    background-repeat: no-repeat;
+	    background-position: top left;
+	    background-size: 100% 100%;
+	}
+	.portfolio{
+		background: url(../imagen/eeuu1.jpg);
+	    background-attachment: fixed;
+	    background-repeat: no-repeat;
+	    background-position: top left;
+	    background-size: 100% 100%;
+	}
+	.news{
+		background: url(../imagen/islandia2.jpg);
+	    background-attachment: fixed;
+	    background-repeat: no-repeat;
+	    background-position: top left;
+	    background-size: 100% 100%;
+	}
+	.contact{
+		background: url(../imagen/paris1.jpg);
+	    background-attachment: fixed;
+	    background-repeat: no-repeat;
+	    background-position: top left;
+	    background-size: 100% 100%;
+	}
+	.container{
+     
+       	width: 935px;
+        height: auto;
+        margin-top: 0px;
+		margin-bottom: 220px;
+
+    }
+
+    #about .container, #portfolio .container, #news .container, #contact .container{
+    	left: 158px;
+    }
+
+    .container h1{
+    	padding: 50px;
+    	font-size: 150px;
+    	font-family: 'Marck Script', cursive;
+    	font-weight: 400;
+    	text-align: center;
+    	text-shadow: 1px 2px 2px coral;
+    	opacity: 0.7;
+    	background: white;
+    	border-radius: 20px;
+    	margin: 0px;
+    }
+    #next1 img{ 
+    	float: left;
+		width: 6%;
+		height: auto;
+		position: absolute;
+		left: 1116px;
+		top: 280px;
+		padding-left: 88px;
+    }
+
+    #next2 img, #next3 img, #next4 img{
+    	float: left;
+		width: 6%;
+		height: auto;
+		position: absolute;
+		top: 280px;
+		left: 1195px;
+
+    }
+
+    #back1 img, #back2 img, #back3 img, #back4 img{
+    	float: right;
+		width: 6%;
+		height: auto;
+		position: absolute;
+		right: 1195px;
+		top: 280px;
+    }
+
+   .grid-4{
+   		margin-right: 150px;
+   }
+   
+    #home .grid-4{
+    	margin-left: 140px;
+    }
+
+	 .grid-1{
+	 	margin: 0px;
+	 }
+ 	
+ 	#foto{
+ 		border-radius: 360px;
+ 		width: 70%;
+ 	}
+
+ 	.texto{
+ 		background-color: white;
+ 		opacity: 0.9;
+ 		padding-left: 10px;
+		padding-right: 10px;
+		margin-right: 0px;
+		margin-left: 0px;
+		font-family: 'Economica', sans-serif;
+		font-weight: 400;
+		font-size: 18px;
+		border-radius: 20px; 
+ 	}
+
+ 	.nombre{
+ 		padding-left: 50px;
+ 		opacity: 0.8;
+ 		color: white;
+ 		font-family: 'Shadows Into Light Two', cursive;
+ 		font-weight: 400;
+ 		font-size: 60px;
+ 	}
+
+/*form*/
+
+.form{ 
+	    max-width: 100%; 
+	    min-width: 0%; 
+	    border-width: 0px; 
+	    border-color: #CCCCCC; 
+	    border-radius: 30px; 
+	    border-style: solid; 
+	    color: #222222; 
+	    font-size: 14px; 
+	    margin: 1px; 
+	    background-color: #FFFFFF; 
+	    padding: 30px; 
+	} 
+	.content{ 
+	    margin: 30px; 
+	} 
+	.form label{ 
+	    color: #222222; 
+	    display: block; 
+	} 
+	.form input[type=radio], input[type=checkbox]{ 
+	    margin: 10px; 
+	    width: 13px; 
+	} 
+	.form div{ 
+	    display: block; 
+	} 
+	.form input, form textarea, form select{ 
+	    border-width: 1px; 
+	    border-style: solid; 
+	    border-color: #666666; 
+	    border-radius: 3px; 
+	    padding: 2px; 
+	    width: 100%; 
+	} 
+	.form, .form h1, .form h2{ 
+	    font-family: 'Economica', sans-serif;
+		font-weight: 400;
+		font-size: 18px;
+	} 
+	.form h1{ 
+	    font-size: 35px; 
+	    color: #607A75; 
+	    padding: 0px; 
+	    margin: 0px; 
+	    margin-bottom: 2px; 
+	    border-bottom-style: dotted; 
+	    border-bottom-color: #CCCCCC; 
+	    border-bottom-width: 2px; 
+	    border-radius: 0px; 
+	    background-color: #FFFFFF; 
+	    text-align: center;
+	} 
+	.intro{ 
+	    margin-bottom: 6px; 
+	} 
+	.clear{ 
+	    clear: both; 
+	} 
+	.form textarea{ 
+	    height: 72px; 
+	    width: 100%; 
+	} 
+	.form input[type=submit]{ 
+	    width: 25%; 
+	    background-color: #607A75; 
+	    color: white; 
+	} 
+	.field{ 
+	    margin-bottom: 17px; 
+	} 
